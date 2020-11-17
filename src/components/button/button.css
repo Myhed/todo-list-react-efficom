@@ -1,0 +1,14 @@
+.button {
+    width: 150px;
+    padding: 13px;
+    border:none;
+    background: orange;
+    color:white;
+    cursor: pointer;
+}
+
+.button:disabled {
+    background: #ccc;
+    color: black;
+    cursor:auto;
+}
